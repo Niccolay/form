@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario Selecop</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="formulario">
+<h2>Comprobante de Existencia<br>para registro de microchip</h2>
+
+<form action="procesar_formulario.php" method="POST">
+<section>
+  <div><label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required></div>
+  <div><label>Especie:</label>
+  <div>
+    <input type="radio" id="opcion1" name="opcion" value="opcion1" required>
+    <label for="opcion1">Perro</label>
+  </div>
+  <div>
+    <input type="radio" id="opcion2" name="opcion" value="opcion2">
+    <label for="opcion2">Gato</label>
+  </div>
+  </div>
+
+</section>
+<!-- Nueva estructura "selecop" -->
+<section>
+  <div><label>Sexo:</label>
+  <div>
+    <input type="radio" id="opcion5" name="opcion2" value="opcion5" required>
+    <label for="opcion5">Macho</label>
+  </div>
+  <div>
+    <input type="radio" id="opcion6" name="opcion2" value="opcion6">
+    <label for="opcion6">Hembra</label>
+  </div></div>
+  <div><label for="opcion7">Raza:</label>
+    <input type="text" required>
+  </div>
+</section>
+  <!--nueva linea-->
+<section>
+  <div><label>Esterilizado</label>
+  <div>
+    <input type="radio" id="opcion7" name="opcion2" value="opcion7">
+    <label for="opcion7">Si</label>
+  </div>
+  <div>
+    <input type="radio" id="opcion7" name="opcion2" value="opcion7">
+    <label for="opcion7">No</label>
+  </div></div>
+  <div><label for="nombre">Color:</label>
+  <input type="text" id="nombre" name="nombre" required></div>
+</section>
+<section>
+  <div><label for="opcion8">Fecha de nacimiento(DD/MM/AAAA):</label>
+  <input type="text" id="opcion8" name="opcion2" ></div>
+  <div><label>Tipo de procedimiento:</label>
+    <div>
+      <input type="radio" id="opcion9">
+      <label>Implantacion</label>
+      <input type="radio" id="opcion9">
+      <label>Verificacion</label>
+    </div>
+  </div>
+</section>
+<section>
+  <div><label>Modo de obtencion:</label>
+    <div>
+      <input type="radio" id="opcion10">
+      <label>Recogido</label>
+      <input type="radio" id="opcion10">
+      <label>Reubicacion</label>
+      <input type="radio" id="opcion10">
+      <label>Regalo</label>
+      <input type="radio" id="opcion10">
+      <label>Nacido en casa</label>
+      <input type="radio" id="opcion10">
+      <label>Compra</label>
+    </div>
+  </div>
+</section>
+<section>
+  <div><label>Razon de tenencia:</label>
+    <div>
+      <input type="radio" id="opcion11">
+      <label>Compañia</label>
+      <input type="radio" id="opcion11">
+      <label>Asistencia</label>
+      <input type="radio" id="opcion11">
+      <label>Terapia</label>
+      <input type="radio" id="opcion11">
+      <label>Trabajo</label>
+      <input type="radio" id="opcion11">
+      <label>Seguridad</label>
+      <input type="radio" id="opcion11">
+      <label>Deporte</label>
+      <input type="radio" id="opcion11">
+      <label>Exposicion</label>
+      <input type="radio" id="opcion11">
+      <label>Reproduccion</label>
+      <input type="radio" id="opcion11">
+      <label>Caza</label>
+    </div>
+  </div>
+</section>
+<section>
+  <h2>Datos Medico veterinario</h2>
+  <div><label>Nombre:</label>
+    <input type="text">
+  </div>
+  <div><label>Apellidos:</label>
+    <input type="text">
+  </div>
+</section>
+<section>
+  <div><label>Rut:</label>
+    <input type="text">
+  </div>
+  <div>
+    <input type="radio">
+    <label>Medico Veterinario</label>
+    <input type="radio">
+    <label>Tecnico Veterinario</label>
+  </div>
+</section>
+<section>
+  <div><label>Comuna:</label>
+    <input type="text">
+  </div>
+  <div><label>Fecha de procedimiento:</label>
+    <input type="text">
+  </div>
+</section>
+<section class="enviar">
+  <input type="submit" value="Enviar">
+</section>
+</form>
+</div>
+</body>
+</html>
+
+
+

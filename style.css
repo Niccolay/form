@@ -1,0 +1,33 @@
+section div {
+    display: inline-block;
+    margin-right: 10px; /* Ajusta el margen entre los elementos */
+    color: #318ce7;
+}
+.formulario {
+    background-color: #ecececec;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+div {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+}
+h2 {
+    text-align: center;
+    color: #318ce7;
+}
+input {
+    border: none;
+}
+.enviar input{
+    border: 2px;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: white;
+}
+.enviar {
+    text-align: right;
+}
